@@ -1,0 +1,91 @@
+/*
+Theme Name: Plumbing Technician Pro
+Theme URI: https://www.omegathemes.com/wordpress/plumber-wordpress-theme/
+Author: Omegathemes
+Author URI: https://omegathemes.com
+Description: 
+Version: 0.0.1
+Requires at least: 5.0
+Tested up to: 5.6.1
+Requires PHP: 5.2.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: plumbing-technician-pro
+Tags: one-column, right-sidebar, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments
+
+Plumbing Technician Pro WordPress Theme has been created by Omegathemes(omegathemes.com), 2023.
+Plumbing Technician Pro WordPress Theme is released under the terms of GNU GPL
+
+/* Basic Style */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap');
+/* @import url('https://fonts.cdnfonts.com/css/source-sans-pro'); */
+:root{
+  --font-kanit: 'Kanit', sans-serif;
+  --font-lato: 'Lato', sans-serif;
+}
+.bypostauthor {
+  font-weight: 600;
+}
+.contact-box {
+    padding-bottom: 40px;
+}
+html {
+    overflow-x: hidden;
+}
+.home-page-main {
+    padding-left: 8em;
+}
+/*--------- Site Loader --------------*/
+.preloader {
+  background: #000;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
+  z-index: 9999999;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translate3d(0, -16px, 0);
+  }
+}
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.bouncing-loader > div {
+  width: 16px;
+  height: 16px;
+  margin: 3rem 0.2rem;
+  background: #217CDF;
+  border-radius: 50%;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.about-box.pt-4 {
+  position: relative;
+  z-index: 99;
+}
+ul.sub-menu li {
+  padding: 20px 0 20px 35px !important;
+}
+
+@media screen and (max-width:1050px) {
+ul.sub-menu li {
+  padding: 10px 0 10px 0px !important;
+}
+}
