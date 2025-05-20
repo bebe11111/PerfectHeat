@@ -258,17 +258,14 @@ div#mySidenav {
 .theme-button a {
   font: 500 16px/60px var(--font-kanit);
   color: #fff;
-  background: #217CDF;
   padding: 18px 5px 18px 28px;
   transition: 0.5s;
   border-radius: 160px;
 }
 .theme-button {
-  background: #14C7EE;
   border-radius: 160px;
   width: max-content;
   padding-right: 40px;
-  box-shadow: 0px 4px 23px 0px #949EAA99;
 }
 .theme-button a:hover{
   transition: 0.5s;

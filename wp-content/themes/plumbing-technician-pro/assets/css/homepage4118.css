@@ -78,15 +78,6 @@ button.owl-dot.active {
   padding:0;
   position:relative;
 }
-#slider:after {
-  content: '';
-  background: #000000b3;
-  width: 100px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 #slider .slider-box span{
   font: 600 26px/33px var(--font-source);
   color: #217CDF;
